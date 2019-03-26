@@ -338,7 +338,7 @@
             },
             "spec": {
                 "serviceName": "${APPLICATION_NAME}",
-                "replicas": "${REPLICAS}",
+                "replicas": "1",
                 "selector": {
                     "matchLabels": {
                         "app": "${APPLICATION_NAME}"
